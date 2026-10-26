@@ -264,14 +264,16 @@ channelListElement.querySelectorAll('li[data-channel]').forEach(item => {
         ? 'Yayın adresini kopyalamak için tıkla'
         : 'Doğrudan yayın adresi bulunmuyor';
 
-    if (channelId === 'youtube') {
+    if (channel.type === 'youtube' || channelId === 'youtube') {
         video.style.display = 'none';
 
-        const videoId = prompt(
-            'YouTube video ID girin.\n\n' +
-            'Örnek: https://youtube.com/watch?v=dQw4w9WgXcQ\n' +
-            'Girilecek ID: dQw4w9WgXcQ'
-        );
+        const videoId = channel.type === 'youtube'
+    ? channel.url
+    : prompt(
+        'YouTube video ID girin.\n\n' +
+        'Örnek: https://youtube.com/watch?v=dQw4w9WgXcQ\n' +
+        'Girilecek ID: dQw4w9WgXcQ'
+    );
 
         if (videoId) {
             ytEmbed.src =
