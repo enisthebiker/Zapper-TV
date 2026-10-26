@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Oynatıcı</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.4.10"></script>
+    <script src="channels.js" defer></script>
+    <script src="player.js" defer></script>
+</head>
+<body>
+
+<span id="site-url" style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); color: white; text-decoration: none; background: rgba(0,0,0,0.7); padding: 5px 10px; border-radius: 5px; font-size: 0.7em; cursor: pointer;" title="Click to copy">TV oynatıcı</span>
+<div class="tv-layout">
+<div class="channel-list">
+    <h3>Kanal Listesi</h3>
+    <p class="drag-hint">Sıralamak için sürükle ↕</p>
+    <ul id="channel-list-items">
+        <!-- Kanallar channels.js dosyasından otomatik oluşturulacak. -->
+    </ul>
+</div>
+
+<div class="tv-container">
+    <div class="tv-frame">
+        <div class="screen" id="tv-screen">
+            <video id="video-player" controls playsinline></video>
+            <div class="channel-info" id="channel-info"></div>
+            <div class="channel-input" id="channel-input"></div>
+            <div class="error-message" id="error-message">
+                Channel could not be loaded. Please try another channel.
+            </div>
+            <div class="volume-indicator" id="volume-indicator"></div>
+            <iframe id="youtube-embed" src="" 
+                style="display:none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+        </div>
+    </div>
+<div class="url-tester">
+    <input type="text" id="test-url" placeholder="M3U8 / video URL'si yapıştır...">
+    <button onclick="playTestUrl()">▶ Oynat</button>
+</div>
+</div>
+
+<div class="remote-container">
+    <button class="remote-power" onclick="togglePower()" title="strength"></button>
+    
+    <div class="channel-pad">
+        <button class="remote-button" onclick="inputChannel(1)">1</button>
+        <button class="remote-button" onclick="inputChannel(2)">2</button>
+        <button class="remote-button" onclick="inputChannel(3)">3</button>
+        <button class="remote-button" onclick="inputChannel(4)">4</button>
+        <button class="remote-button" onclick="inputChannel(5)">5</button>
+        <button class="remote-button" onclick="inputChannel(6)">6</button>
+        <button class="remote-button" onclick="inputChannel(7)">7</button>
+        <button class="remote-button" onclick="inputChannel(8)">8</button>
+        <button class="remote-button" onclick="inputChannel(9)">9</button>
+        <button class="remote-button" onclick="inputChannel(0)">0</button>
+    </div>
+    
+    <div class="volume-buttons">
+        <button class="volume-button" onclick="adjustVolume(-0.1)">vol-</button>
+        <button class="volume-button" onclick="adjustVolume(0.1)">vol+</button>
+    </div>
+    
+    <div class="channel-buttons">
+        <div class="channel-nav">
+            <button class="channel-nav-button" onclick="changeChannelRelative(-1)">◀ channel</button>
+            <button class="channel-nav-button" onclick="changeChannelRelative(1)">channel ▶</button>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+
+<div class="keyboard-info">
+    Keyboard control: Power with 'P' key
+</div>
+
+</body>
+</html>
