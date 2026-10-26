@@ -8,7 +8,7 @@ const channels = {
     trtcocuk: { name: "TRT Çocuk", url: "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8" },
     showtv: { name: "Show TV", url: "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv_720p.m3u8" },
     startv: { name: "Star TV", url: "http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8" },
-    atv: { name: "Atv", url: "https://trkvz.daioncdn.net/atv/atv.m3u8?ce=3&app=d1ce2d40-5256-4550-b02e-e73c185a314e&st=e8YvKyoYsBfmToXlhxxJcw&e=1792801793&ppid=9864f27eb810dc4f940a3193cb478078" },
+    atv: { name: "Atv", url: "https://trkvz.daioncdn.net/atv/atv_1080p.m3u8?e=1793080645&st=XtNk3rJF_0faiaG0h86yGQ&sid=8v88qpux5bc5&app=d1ce2d40-5256-4550-b02e-e73c185a314e&ce=3" },
     beyaztv: { name: "Beyaz TV", url: "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8" },
     ntv: { name: "NTV", url: "https://dogus-live.daioncdn.net/ntv/ntv.m3u8" },
     trt2: { name: "TRT 2", url: "https://tv-trt2.medya.trt.com.tr/master.m3u8" },
