@@ -586,7 +586,7 @@ rtRussia: {
     url: "https://1a-1791.com/live/hr6yv36f/slot-4/mxtm-wdfe_1080p/chunklist_DVR.m3u8"
 },
 deutscheWelleEnglish: {
-    name: "Deutsche Welle English",
+    name: "DW English",
     url: "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream01/streamPlaylist.m3u8"
 },
 noa4Hamburg: {
@@ -602,7 +602,7 @@ frankenTV: {
     url: "https://stream01.welocal.stream/stream/fhd-tvmainfranken_255661/ngrp:stream_all/chunklist_w1073867686_b446000.m3u8"
 },
 offenerKanalBerlin: {
-    name: "Offener Kanal Berlin",
+    name: "Offener Berlin",
     url: "https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/chunklist_b2128000_slGER.m3u8"
 },
 niederbayernTV: {
@@ -626,22 +626,221 @@ indiaToday: {
     url: "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_234p/chunks.m3u8"
 },
 
+kanal7: {
+    name: "Kanal 7",
+    url: "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8?hash=c844a8b9e123a6534abc61aa68065b5d"
+},
+cnnTurk: {
+    name: "CNN Türk",
+    url: "https://yayin2.canlitv.fun/live/cnnturk.stream/playlist.m3u8?hash=c844a8b9e123a6534abc61aa68065b5d"
+},
+sozcuTV: {
+    name: "Sözcü TV",
+    type: "youtube",
+    url: "ztmY_cCtUl0"
+},
+tgrt: {
+    name: "TGRT Haber",
+    type: "youtube",
+    url: "8WrpltCwv-8"
+},
+trtTurk: {
+    name: "TRT Türk",
+    url: "https://tv-trtturk.medya.trt.com.tr/master_720.m3u8"
+},
+cemtv: {
+    name: "Cem TV",
+    url: "https://panel.5gtvhosting.com:2020/hls/cemtv/cemtv.m3u8"
+},
+showturktv: {
+    name: "Show Türk TV",
+    type: "youtube",
+    url: "cbgKyiqOljQ"
+},
+eurostar: {
+    name: "Euro Star TV",
+    url: "https://dogusdyg-eurostar.lg.mncdn.com/dogusdyg_eurostar/live_1080p3000000kbps/index.m3u8?st=8sLM6V-MDLFIZGO5J21W6g&e=1793106644"
+},
+atvavrupa: {
+    name: "Atv Avrupa",
+    url: "https://trkvz-live.ercdn.net/atvavrupa/atvavrupa_576p.m3u8?st=3LZjZ01topO356t0qJcz9Q&e=1793065738"
+},
+bloomberght: {
+    name: "Bloomberg HT",
+    type: "youtube",
+    url: "j7B_zsL11Pw"
+},
+akittv: {
+    name: "Akit TV",
+    type: "youtube",
+    url: "bqQ86zWjZ2M"
+},
+ulketv: {
+    name: "Ülke TV",
+    type: "youtube",
+    url: "RWHjsjauioY"
+},
+krttv: {
+    name: "KRT TV",
+    type: "youtube",
+    url: "sT3BrvBWJvo"
+},
+ulusalkanal: {
+    name: "Ulusal Kanal",
+    type: "youtube",
+    url: "wD9lrYZrThU"
+},
+ilketv: {
+    name: "İlke TV",
+    type: "youtube",
+    url: "8dfvB1MYSBo"
+},
+benguturktv: {
+    name: "Bengü Türk TV",
+    type: "youtube",
+    url: "oM8knhi5hzQ"
+},
+liderhaber: {
+    name: "Lider Haber",
+    type: "youtube",
+    url: "eKW2H4oHQvc"
+},
+ekoturktv: {
+    name: "Ekotürk TV",
+    type: "youtube",
+    url: "n5kkt5THivg"
+},
+apara: {
+    name: "A para TV",
+    type: "youtube",
+    url: "joHdBJd_jQA"
+},
+kozatv: {
+    name: "Koza TV",
+    type: "youtube",
+    url: "a52uKTO1WYI"
+},
+telenews: {
+    name: "Telenews",
+    url: "https://cdn4.yayin.com.tr/telenews/tracks-v1a1/mono.m3u8"
+},
+anews: {
+    name: "A news",
+    type: "youtube",
+    url: "7PPN_D4E6QU"
+},
+egemaxtv: {
+    name: "Egemax TV",
+    type: "youtube",
+    url: "_NcO_Qm4qhg"
+},
+htspor: {
+    name: "HT Spor",
+    type: "youtube",
+    url: "gcWaPe_LBMc"
+},
+beinsportshaber: {
+    name: "beIN Sports Haber",
+    type: "youtube",
+    url: "i7UpPgxfZZ8"
+},
+tgrtbelgesel: {
+    name: "TGRT Belgesel",
+    type: "youtube",
+    url: "32y7IEtD5OU"
+},
+tarimtv: {
+    name: "Tarım TV",
+    url: "https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/index-480p.m3u8"
+},
+nasatv: {
+    name: "NASA TV",
+    type: "youtube",
+    url: "ROboUHfPUrU"
+},
+kralsakir: {
+    name: "Kral Şakir TV",
+    type: "youtube",
+    url: "vUNydkil1i8"
+},
+tomandjerry: {
+    name: "Tom and Jerry TV",
+    type: "youtube",
+    url: "GEw3m4xvct4"
+},
+bluey: {
+    name: "Bluey TV",
+    type: "youtube",
+    url: "RHUauMcYlX0"
+},
+yardimciarabalar: {
+    name: "Yardımcı Arabalar",
+    type: "youtube",
+    url: "bGyK5QAqF8c"
+},
+booba: {
+    name: "Booba TV",
+    type: "youtube",
+    url: "S3PgnmpBL_E"
+},
+konusantom: {
+    name: "Tom ve Arkadaşları",
+    type: "youtube",
+    url: "p2lzszpliL4"
+},
+maxtv: {
+    name: "Max Music TV",
+    url: "https://cdn4.yayin.com.tr/maxtv/tracks-v1a1/mono.m3u8"
+},
+damarturktv: {
+    name: "Damar Türk TV",
+    url: "https://stream.yayintescil.com:3183/stream/play.m3u8"
+},
+numberoneask: {
+    name: "Numberone Aşk",
+    url: "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/chunklist.m3u8"
+},
+numberonedans: {
+    name: "Numberone Dance",
+    url: "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/chunklist.m3u8"
+},
+powerakustik: {
+    name: "Power Türk Akustik",
+    url: "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/chunks.m3u8?nimblesessionid=1113859402"
+},
+powerdance: {
+    name: "Power Dance",
+    url: "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8"
+},
+powertaptaze: {
+    name: "Power Türk Taptaze",
+    url: "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8"
+},
+bodrumkenttv: {
+    name: "Bodrum Kent TV",
+    url: "https://edge2.taksimbilisim.com/bodrumkenttv/bant1/chunks.m3u8"
+},
+onaltitv: {
+    name: "On6 TV",
+    type: "youtube",
+    url: "iK9mJfjtCl0"
+},
 
 };
 
 // İlk açılışta kullanılacak kanal sırası
 const defaultChannelOrder = [
-    "trt1", "showtv", "startv", "atv", "nowtv", 
+    "trt1", "youtube", "showtv", "startv", "atv", "nowtv", 
     "dmax", "tlc", "trtbelgesel", "a2tv", 
-    "trtmuzik", "trt2",
     "showmax", "gzttv", "cine1", "Power TV", "numberone", "ntv",
-    "haberturk", "360", "tv100", "beyaztv",
-    "halktv", "haberglobal", "tgrthaber", "ahaber",
+    "haberturk", "360", "tv100", "beyaztv", "showturktv", "atvavrupa", "eurostar", "tgrtbelgesel",
+    "trtmuzik", "trt2", "kanal7", "cnnTurk", "sozcuTV", "trtTurk",
+    "tgrt", "halktv", "haberglobal", "tgrthaber", "ahaber",
     "yabantv", "koytv", "ciftcitv", "topraktv",
     "ctgndocumentary", "patitv", "cartoonnetwork", "arbtv",
     "minikacocuk", "minikago", "trtdiyanetcocuk", 
     "aspor", "trtsporstar", "fbtv", "tjktv", "taytv",
-"youtube"
+
 ];
 
 // Kanal listesini otomatik oluştur
