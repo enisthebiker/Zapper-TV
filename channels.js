@@ -813,7 +813,7 @@ powerdance: {
     url: "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8"
 },
 powertaptaze: {
-    name: "Power Türk Taptaze",
+    name: "Power Taptaze",
     url: "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8"
 },
 bodrumkenttv: {
