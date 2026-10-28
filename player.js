@@ -198,11 +198,6 @@ function togglePower() {
         ytEmbed.src = '';
         ytEmbed.style.display = 'none';
         video.style.display = 'none';
-        document.getElementById('channel-iframe-container').style.display = 'none';
-        document.getElementById('channel-iframe').src = '';
-        const siteUrl = document.getElementById('site-url');
-siteUrl.textContent = 'TV oynatıcı';
-siteUrl.title = 'TV kapalı';
     } else {
         screen.classList.remove('off');
         powerBtn.classList.remove('off');
@@ -213,7 +208,6 @@ siteUrl.title = 'TV kapalı';
 }
 
 
-
 function handlePlaybackError() {
     const errorMessage = document.getElementById('error-message');
     errorMessage.style.display = 'block';
@@ -222,7 +216,6 @@ function handlePlaybackError() {
         errorMessage.style.display = 'none';
     }, 5000);
 }
-
 
 function changeChannel(channelId) {
     if (!isPoweredOn) return;
@@ -244,8 +237,6 @@ channelListElement.querySelectorAll('li[data-channel]').forEach(item => {
     const errorMessage = document.getElementById('error-message');
     const ytEmbed = document.getElementById('youtube-embed');
     const siteUrl = document.getElementById('site-url');
-    const iframeContainer = document.getElementById('channel-iframe-container');
-    const channelIframe = document.getElementById('channel-iframe');
 
     if (currentHls) {
         currentHls.stopLoad();
@@ -260,50 +251,6 @@ channelListElement.querySelectorAll('li[data-channel]').forEach(item => {
 
     errorMessage.style.display = 'none';
 
-    // Önce TV8 iframe'ini gizle
-    iframeContainer.style.display = 'none';
-    channelIframe.src = '';
-
-    
-    // TV8 seçildiyse web sayfasını göster
-    
-
-if (channel.type === 'iframe') {
-    video.style.display = 'none';
-    ytEmbed.style.display = 'none';
-    channelInfo.style.display = 'block';
-
-    channelInfo.textContent = channel.name;
-    document.title = channel.name + ' - Zapper';
-
-    if (siteUrl) {
-        siteUrl.textContent = channel.url;
-    }
-
-    iframeContainer.style.display = 'block';
-    channelIframe.title = channel.name + ' Canlı Yayın';
-
-
-channelIframe.src = channel.url;
-
-
-    
-const settings = channel.iframeSettings || {};
-
-channelIframe.style.position = 'absolute';
-channelIframe.style.width = settings.width || '100%';
-channelIframe.style.height = settings.height || '100%';
-channelIframe.style.left = settings.offsetX || '0';
-channelIframe.style.top = settings.offsetY || '0';
-channelIframe.style.transform = settings.scale != null
-    ? `scale(${settings.scale})`
-    : '';
-channelIframe.style.transformOrigin = 'top left';
-return;
-}
-
-
-
     channelInfo.textContent =
         `${getChannelNumber(channelId)}. ${channel.name}`;
     channelInfo.style.display = 'block';
@@ -317,41 +264,35 @@ return;
         ? 'Yayın adresini kopyalamak için tıkla'
         : 'Doğrudan yayın adresi bulunmuyor';
 
-if (channel.type === 'youtube' || channelId === 'youtube') {
-    video.style.display = 'none';
-    iframeContainer.style.display = 'none';
+    if (channel.type === 'youtube' || channelId === 'youtube') {
+        video.style.display = 'none';
 
-    const videoId = channel.type === 'youtube'
-        ? channel.url
-        : prompt(
-            'YouTube video ID girin.\n\n' +
-            'Örnek: https://youtube.com/watch?v=dQw4w9WgXcQ\n' +
-            'Girilecek ID: dQw4w9WgXcQ'
-        );
+        const videoId = channel.type === 'youtube'
+    ? channel.url
+    : prompt(
+        'YouTube video ID girin.\n\n' +
+        'Örnek: https://youtube.com/watch?v=dQw4w9WgXcQ\n' +
+        'Girilecek ID: dQw4w9WgXcQ'
+    );
 
-    if (videoId) {
-        ytEmbed.src =
-            `https://www.youtube.com/embed/${videoId.trim()}?autoplay=1&controls=1`;
-        ytEmbed.style.display = 'block';
-        channelInfo.style.display = 'none';
-    } else {
-        ytEmbed.src = '';
-        ytEmbed.style.display = 'none';
+        if (videoId) {
+            ytEmbed.src =
+                `https://www.youtube.com/embed/${videoId.trim()}?autoplay=1&controls=1`;
 
-        errorMessage.textContent =
-            'Geçerli bir YouTube video ID girilmedi.';
-        errorMessage.style.display = 'block';
+            ytEmbed.style.display = 'block';
+            channelInfo.style.display = 'none';
+        } else {
+            errorMessage.textContent =
+                'Geçerli bir YouTube video ID girilmedi.';
+            errorMessage.style.display = 'block';
 
-        setTimeout(() => {
-            errorMessage.style.display = 'none';
-        }, 3000);
+            setTimeout(() => {
+                errorMessage.style.display = 'none';
+            }, 3000);
+        }
+
+        return;
     }
-
-    return;
-}
-
-    
-    
 
     ytEmbed.style.display = 'none';
     ytEmbed.src = '';
@@ -457,8 +398,7 @@ function playTestUrl() {
 
     ytEmbed.style.display = 'none';
     ytEmbed.src = '';
-    document.getElementById('channel-iframe-container').style.display = 'none';
-    document.getElementById('channel-iframe').src = '';
+
     errorMessage.style.display = 'none';
     channelInfo.style.display = 'none';
     video.style.display = 'block';
