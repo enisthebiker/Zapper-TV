@@ -1,5 +1,4 @@
 
-
 :root {
     --tv-width: 800px;
     --tv-height: 450px;
@@ -311,10 +310,10 @@ body {
 
 #youtube-embed {
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    border: 0;
     display: none;
 }
 
@@ -569,5 +568,7 @@ font-size: 11px;
     border-color: #b58b35;
     opacity: 1;
 }
+
+
 
 
