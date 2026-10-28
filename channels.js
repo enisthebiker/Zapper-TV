@@ -12,7 +12,7 @@ tv8: {
         width: "1200px",
         height: "900px",
         offsetX: "-90px",
-        offsetY: "-200px",
+        offsetY: "-150px",
         scale: 0.75
     }
 
