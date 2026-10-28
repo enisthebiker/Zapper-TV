@@ -12,22 +12,15 @@ tv8: {
         width: "1200px",
         height: "900px",
         offsetX: "-90px",
-        offsetY: "-100px",
+        offsetY: "-200px",
         scale: 0.75
     }
 
 },
 atv: {
     name: "ATV",
-    url: "https://www.atv.com.tr/canli-yayin",
-    type: "iframe",
-    iframeSettings: {
-        width: "1200px",
-        height: "900px",
-        offsetX: "-115px",
-        offsetY: "-430px",
-        scale: 1.1}
-    },
+    url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
+       },
 
 kanald: {
     name: "Kanal D",
