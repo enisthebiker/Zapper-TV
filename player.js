@@ -317,33 +317,41 @@ return;
         ? 'Yayın adresini kopyalamak için tıkla'
         : 'Doğrudan yayın adresi bulunmuyor';
 
-    if (channel.type === 'youtube' || channelId === 'youtube') {
-        video.style.display = 'none';
+if (channel.type === 'youtube' || channelId === 'youtube') {
+    video.style.display = 'none';
+    iframeContainer.style.display = 'none';
 
-        const videoId = prompt(
+    const videoId = channel.type === 'youtube'
+        ? channel.url
+        : prompt(
             'YouTube video ID girin.\n\n' +
             'Örnek: https://youtube.com/watch?v=dQw4w9WgXcQ\n' +
             'Girilecek ID: dQw4w9WgXcQ'
         );
 
-        if (videoId) {
-            ytEmbed.src =
-                `https://www.youtube.com/embed/${videoId.trim()}?autoplay=1&controls=1`;
+    if (videoId) {
+        ytEmbed.src =
+            `https://www.youtube.com/embed/${videoId.trim()}?autoplay=1&controls=1`;
+        ytEmbed.style.display = 'block';
+        channelInfo.style.display = 'none';
+    } else {
+        ytEmbed.src = '';
+        ytEmbed.style.display = 'none';
 
-            ytEmbed.style.display = 'block';
-            channelInfo.style.display = 'none';
-        } else {
-            errorMessage.textContent =
-                'Geçerli bir YouTube video ID girilmedi.';
-            errorMessage.style.display = 'block';
+        errorMessage.textContent =
+            'Geçerli bir YouTube video ID girilmedi.';
+        errorMessage.style.display = 'block';
 
-            setTimeout(() => {
-                errorMessage.style.display = 'none';
-            }, 3000);
-        }
-
-        return;
+        setTimeout(() => {
+            errorMessage.style.display = 'none';
+        }, 3000);
     }
+
+    return;
+}
+
+    
+    
 
     ytEmbed.style.display = 'none';
     ytEmbed.src = '';
