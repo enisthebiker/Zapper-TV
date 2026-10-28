@@ -317,29 +317,46 @@ return;
         ? 'Yayın adresini kopyalamak için tıkla'
         : 'Doğrudan yayın adresi bulunmuyor';
 
+   
     if (channel.type === 'youtube' || channelId === 'youtube') {
         video.style.display = 'none';
 
-        const videoId = prompt(
-            'YouTube video ID girin.\n\n' +
-            'Örnek: https://youtube.com/watch?v=dQw4w9WgXcQ\n' +
-            'Girilecek ID: dQw4w9WgXcQ'
-        );
+        let videoId = channelId === 'youtube'
+            ? prompt(
+                'YouTube video ID girin.\n\n' +
+                'Örnek: https://youtube.com/watch?v=dQw4w9WgXcQ\n' +
+                'Girilecek ID: dQw4w9WgXcQ'
+            )
+            : channel.url;
 
         if (videoId) {
-            ytEmbed.src =
-                `https://www.youtube.com/embed/${videoId.trim()}?autoplay=1&controls=1`;
+            videoId = videoId.trim();
 
-            ytEmbed.style.display = 'block';
-            channelInfo.style.display = 'none';
-        } else {
-            errorMessage.textContent =
-                'Geçerli bir YouTube video ID girilmedi.';
-            errorMessage.style.display = 'block';
+            if (
+                videoId.includes('youtube.com') ||
+                videoId.includes('youtu.be')
+            ) {
+                try {
+                    const parsedUrl = new URL(videoId);
+                    videoId = parsedUrl.hostname.includes('youtu.be')
+                        ? parsedUrl.pathname.slice(1)
+                        : parsedUrl.searchParams.get('v') ||
+                          parsedUrl.pathname.split('/').filter(Boolean).pop();
+                } catch (error) {
+                    videoId = '';
+                }
+            }
 
-            setTimeout(() => {
-                errorMessage.style.display = 'none';
-            }, 3000);
+            if (videoId) {
+                ytEmbed.src =
+                    `https://www.youtube.com/embed/${videoId}?autoplay=1&controls=1`;
+
+                ytEmbed.style.display = 'block';
+                channelInfo.style.display = 'none';
+            }
+        } else if (channelId === 'youtube') {
+            ytEmbed.src = '';
+            ytEmbed.style.display = 'none';
         }
 
         return;
