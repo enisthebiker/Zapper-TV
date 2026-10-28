@@ -1,16 +1,66 @@
 
+
+
  // Kanal bilgileri: Yeni kanal eklemek için bu dosyayı düzenle.
 const channels = {
     trt1: { name: "TRT 1", url: "https://tv-trt1.medya.trt.com.tr/master.m3u8" },
+tv8: {
+    name: "TV8",
+    url: "https://www.tv8.com.tr/canli-yayin",
+    type: "iframe",
+    iframeSettings: {
+        width: "1200px",
+        height: "900px",
+        offsetX: "-90px",
+        offsetY: "-100px",
+        scale: 0.75
+    }
+
+},
+atv: {
+    name: "ATV",
+    url: "https://www.atv.com.tr/canli-yayin",
+    type: "iframe",
+    iframeSettings: {
+        width: "1200px",
+        height: "900px",
+        offsetX: "-115px",
+        offsetY: "-430px",
+        scale: 1.1}
+    },
+
+kanald: {
+    name: "Kanal D",
+    url: "https://www.kanald.com.tr/canli-yayin",
+    type: "iframe",
+    iframeSettings: {
+        width: "1180px",
+        height: "1300px",
+        offsetX: "-200px",
+        offsetY: "-415px",
+        scale: 0.95
+    }
+},
+startv: {
+    name: "Star TV",
+    url: "https://www.startv.com.tr/canli-yayin",
+    type: "iframe",
+    iframeSettings: {
+        width: "1185px",
+        height: "1300px",
+        offsetX: "-155px",
+        offsetY: "-435px",
+        scale: 0.87
+    }
+},
     trthaber: { name: "TRT Haber", url: "https://tv-trthaber.medya.trt.com.tr/master.m3u8" },
     trtspor: { name: "TRT Spor", url: "https://tv-trtspor1.medya.trt.com.tr/master.m3u8" },
     trtbelgesel: { name: "TRT Belgesel", url: "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8" },
     trtcocuk: { name: "TRT Çocuk", url: "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8" },
     showtv: { name: "Show TV", url: "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv_720p.m3u8" },
-    startv: { name: "Star TV", url: "http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8" },
-    atv: { name: "Atv", url: "https://trkvz.daioncdn.net/atv/atv_1080p.m3u8?e=1793148972&st=jsOVcFJA-0qEtp7lVrHrkw&sid=8vb2bsjvcrd9&app=d1ce2d40-5256-4550-b02e-e73c185a314e&ce=3" },
+    
     beyaztv: { name: "Beyaz TV", url: "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8" },
-    ntv: { name: "NTV", url: "https://dogus-live.daioncdn.net/ntv/ntv.m3u8" },
+    
     trt2: { name: "TRT 2", url: "https://tv-trt2.medya.trt.com.tr/master.m3u8" },
     haberturk: { name: "Habertürk", url: "https://tv.ensonhaber.com/haberturk/haberturk.m3u8" },
     numberone: { name: "Number One", url: "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8" },
@@ -44,6 +94,19 @@ const channels = {
     tv85: {
     name: "TV 8,5",
     url: "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8"
+},
+
+ntv: {
+    name: "N TV",
+    url: "https://www.ntv.com.tr/canli-yayin/ntv",
+    type: "iframe",
+    iframeSettings: {
+        width: "1200px",
+        height: "1300px",
+        offsetX: "-95px",
+        offsetY: "-415px",
+        scale: 0.74
+    }
 },
 sabantv: {
     name: "Şaban TV",
@@ -121,7 +184,8 @@ tmbtv: {
 sercemtv: {
     name: "Serçem TV",
     url: "https://canli.sercemtv.com.tr/hls/0/stream.m3u8"
-},tv24: {
+},
+tv24: {
     name: "24 TV",
     url: "https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8"
 },
@@ -634,16 +698,19 @@ cnnTurk: {
     name: "CNN Türk",
     url: "https://yayin2.canlitv.fun/live/cnnturk.stream/playlist.m3u8?hash=c844a8b9e123a6534abc61aa68065b5d"
 },
-sozcuTV: {
+   sozcutv: {
     name: "Sözcü TV",
-    type: "youtube",
-    url: "ztmY_cCtUl0"
+    url: "https://www.szctv.com.tr/canli-yayin-izle",
+    type: "iframe",
+iframeSettings: {
+        width: "1200px",
+        height: "1400px",
+        offsetX: "-60px",
+        offsetY: "-335px",
+        scale: 0.70
+    }
 },
-tgrt: {
-    name: "TGRT Haber",
-    type: "youtube",
-    url: "8WrpltCwv-8"
-},
+
 trtTurk: {
     name: "TRT Türk",
     url: "https://tv-trtturk.medya.trt.com.tr/master_720.m3u8"
@@ -654,8 +721,15 @@ cemtv: {
 },
 showturktv: {
     name: "Show Türk TV",
-    type: "youtube",
-    url: "cbgKyiqOljQ"
+    url: "https://www.showturk.com.tr/canli-yayin",
+    type: "iframe",
+iframeSettings: {
+        width: "1200px",
+        height: "900px",
+        offsetX: "-43px",
+        offsetY: "-143px",
+        scale: 0.67
+    }
 },
 eurostar: {
     name: "Euro Star TV",
@@ -826,20 +900,21 @@ onaltitv: {
     url: "iK9mJfjtCl0"
 },
 
+
 };
 
 // İlk açılışta kullanılacak kanal sırası
 const defaultChannelOrder = [
-    "trt1", "youtube", "showtv", "startv", "atv", "nowtv", 
+    "trt1", "youtube", "showtv", "startv", "atv", "kanald", "tv8", "nowtv", 
     "dmax", "tlc", "trtbelgesel", "a2tv", 
-    "showmax", "gzttv", "cine1", "Power TV", "numberone", "ntv",
-    "haberturk", "360", "tv100", "beyaztv", "showturktv", "atvavrupa", "eurostar", "tgrtbelgesel",
-    "trtmuzik", "trt2", "kanal7", "cnnTurk", "sozcuTV", "trtTurk",
-    "tgrt", "halktv", "haberglobal", "tgrthaber", "ahaber",
+    "trtmuzik", "trt2",
+    "showmax", "gzttv", "cine1", "PowerTV", "numberone", "ntv",
+    "haberturk", "360tv", "tv100", "beyaztv",
+    "halktv", "haberglobal", "tgrthaber", "ahaber","cnnTurk",
     "yabantv", "koytv", "ciftcitv", "topraktv",
     "ctgndocumentary", "patitv", "cartoonnetwork", "arbtv",
     "minikacocuk", "minikago", "trtdiyanetcocuk", 
-    "aspor", "trtsporstar", "fbtv", "tjktv", "taytv",
+    "aspor", "trtsporstar", "fbtv", "tjktv", "taytv", "kanal7"
 
 ];
 
