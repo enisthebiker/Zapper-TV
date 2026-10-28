@@ -270,6 +270,7 @@ channelListElement.querySelectorAll('li[data-channel]').forEach(item => {
 
 if (channel.type === 'iframe') {
     video.style.display = 'none';
+    ytEmbed.src = '';
     ytEmbed.style.display = 'none';
     channelInfo.style.display = 'block';
 
