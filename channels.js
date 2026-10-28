@@ -17,10 +17,7 @@ tv8: {
     }
 
 },
-atv: {
-    name: "ATV",
-    url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
-       },
+atv: { name: "A TV", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8" },
 
 kanald: {
     name: "Kanal D",
