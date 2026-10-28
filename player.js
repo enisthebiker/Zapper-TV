@@ -317,7 +317,7 @@ return;
         ? 'Yayın adresini kopyalamak için tıkla'
         : 'Doğrudan yayın adresi bulunmuyor';
 
-    if (channelId === 'youtube') {
+    if (channel.type === 'youtube' || channelId === 'youtube') {
         video.style.display = 'none';
 
         const videoId = prompt(
