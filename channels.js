@@ -12,7 +12,7 @@ tv8: {
         width: "1200px",
         height: "900px",
         offsetX: "-90px",
-        offsetY: "-150px",
+        offsetY: "-100px",
         scale: 0.75
     }
 
@@ -43,6 +43,30 @@ startv: {
         scale: 0.87
     }
 },
+ dmax: {
+    name: "D Max",
+    url: "https://www.dmax.com.tr/canli-izle",
+    type: "iframe",
+    iframeSettings: {
+        width: "1185px",
+        height: "1300px",
+        offsetX: "-20px",
+        offsetY: "-270px",
+        scale: 0.95
+    }
+},
+ tlc: {
+    name: "TLC",
+    url: "https://www.tlctv.com.tr/canli-izle",
+    type: "iframe",
+    iframeSettings: {
+        width: "1185px",
+        height: "1300px",
+        offsetX: "-20px",
+        offsetY: "-270px",
+        scale: 0.95
+    }
+},
     trthaber: { name: "TRT Haber", url: "https://tv-trthaber.medya.trt.com.tr/master.m3u8" },
     trtspor: { name: "TRT Spor", url: "https://tv-trtspor1.medya.trt.com.tr/master.m3u8" },
     trtbelgesel: { name: "TRT Belgesel", url: "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8" },
@@ -56,7 +80,7 @@ startv: {
     numberone: { name: "Number One", url: "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8" },
     trtmuzik: { name: "TRT Müzik", url: "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8" },
     "360tv": { name: "360 TV", url: "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8" },
-    tv100: { name: "TV 100", url: "https://yayin2.canlitv.fun/live/tv100.stream/chunklist_w993184541.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
+    tv100: { name: "TV 100", url: "https://tv.ensonhaber.com/tv100/tv100_360p.m3u8" },
     nowtv: { name: "Now TV", url: "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8" },
     halktv: { name: "Halk TV", url: "https://halktv-live.daioncdn.net/halktv/halktv.m3u8" },
     youtube: { name: "YouTube" },
@@ -68,8 +92,6 @@ startv: {
     fbtv: { name: "FB TV", url: "https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8" },
     tjktv: { name: "TJK TV", url: "https://tjktv-live.tjk.org/tjktv.m3u8" },
     taytv: { name: "TAY TV", url: "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8" },
-    dmax: { name: "DMax", url: "https://yayin2.canlitv.fun/live/dmax.stream/chunklist_w1266001012.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
-    tlc: { name: "TLC", url: "https://yayin2.canlitv.fun/live/tlc.stream/chunklist_w1092059360.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
     yabantv: { name: "Yaban TV", url: "https://yayin1.canlitv.fun/canlitv/yabantv.stream/chunklist_w1403802808.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
     koytv: { name: "Köy TV", url: "https://yayin1.canlitv.fun/canlitv/koytv.stream/chunklist_w2105237048.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
     ciftcitv: { name: "Çiftçi TV", url: "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8?hash=f056f39983f05906912d00f355565b97" },
