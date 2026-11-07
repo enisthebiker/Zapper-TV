@@ -86,20 +86,20 @@ startv: {
     youtube: { name: "YouTube" },
     haberglobal: { name: "Haber Global", url: "https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8" },
     tgrthaber: { name: "TGRT Haber", url: "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8" },
-    ahaber: { name: "A Haber", url: "https://yayin2.canlitv.fun/live/ahaber.stream/chunklist_w329357521.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
+    ahaber: { name: "A Haber", url: "https://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8" },
     aspor: { name: "A Spor", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8" },
     trtsporstar: { name: "TRT Spor Yıldız", url: "https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8" },
     fbtv: { name: "FB TV", url: "https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8" },
     tjktv: { name: "TJK TV", url: "https://tjktv-live.tjk.org/tjktv.m3u8" },
     taytv: { name: "TAY TV", url: "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8" },
-    yabantv: { name: "Yaban TV", url: "https://yayin1.canlitv.fun/canlitv/yabantv.stream/chunklist_w1403802808.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
-    koytv: { name: "Köy TV", url: "https://yayin1.canlitv.fun/canlitv/koytv.stream/chunklist_w2105237048.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
+    yabantv: { name: "Yaban TV", url: "https://yayin1.canlitv.fun/canlitv/yabantv.stream/playlist.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8" },
+    koytv: { name: "Köy TV", url: "https://yayin1.canlitv.fun/canlitv/koytv.stream/chunklist_w726484468.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8" },
     ciftcitv: { name: "Çiftçi TV", url: "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8?hash=f056f39983f05906912d00f355565b97" },
     topraktv: { name: "Toprak TV", url: "https://yayin1.canlitv.fun/canlitv/topraktv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
     ctgndocumentary: { name: "ctgn Documentary", url: "https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8" },
     patitv: { name: "Pati TV", url: "https://patitv.radyotelekomtv.com:3958/live/patitvlive.m3u8" },
-    cartoonnetwork: { name: "Cartoon Network", url: "https://yayin2.canlitv.fun/live/cartoon-network.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
-    arbtv: { name: "ARB Güneş TV", url: "https://yayin2.canlitv.fun/live/arbgunes.stream/chunklist_w1599088576.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
+    cartoonnetwork: { name: "Cartoon Network", url: "https://yayin2.canlitv.fun/live/cartoon-network.stream/chunklist_w860674612.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8" },
+    arbtv: { name: "ARB Güneş TV", url: "https://yayin2.canlitv.fun/live/arbgunes.stream/chunklist_w479118348.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8" },
     minikacocuk: { name: "Minika Çocuk", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8" },
     minikago: { name: "Minika Go", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8" },
     trtdiyanetcocuk: { name: "TRT DiyanetÇocuk", url: "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8" },
@@ -171,7 +171,7 @@ cantempotv: {
 },
 sonmeztv: {
     name: "Sönmez TV",
-    url: "https://yayin1.canlitv.fun/canlitv/sonmeztv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
+    url: "https://sonmeztv.ozelip.com.tr:3826/live/sonmeztvlive.m3u8"
 },
 luystv: {
     name: "Luys TV",
@@ -291,7 +291,7 @@ etvmanisa: {
 },
 tokatsupertv: {
     name: "Tokat Süper TV",
-    url: "https://yayin1.canlitv.fun/canlitv/tokatsupertv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
+    url: "https://yayin1.canlitv.fun/canlitv/tokatsupertv.stream/chunklist_w1733357374.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
 },
 kanalv: {
     name: "Kanal V",
@@ -347,15 +347,15 @@ kanal33: {
 },
 anadoluDostTV: {
     name: "Anadolu Dost TV",
-    url: "https://yayin1.canlitv.fun/canlitv/dosttv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
+    url: "https://yayin1.canlitv.fun/canlitv/dosttv.stream/chunklist_w143271696.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
 },
 kanal38: {
     name: "Kanal 38",
-    url: "https://yayin1.canlitv.fun/canlitv/kanal38.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
+    url: "https://yayin1.canlitv.fun/canlitv/kanal38.stream/chunklist_w1556741452.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
 },
 cayTV: {
     name: "Çay TV",
-    url: "https://edge2.taksimbilisim.com/caytv/bant1/chunks.m3u8?nimblesessionid=548925902"
+    url: "https://edge2.taksimbilisim.com/caytv/bant1/chunks.m3u8?nimblesessionid=575360064"
 },
 asTV: {
     name: "AS TV",
@@ -375,7 +375,7 @@ tv42: {
 },
 konyaOlayTV: {
     name: "Konya Olay TV",
-    url: "https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/chunks.m3u8?nimblesessionid=4363075365"
+    url: "https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8"
 },
 tonTV: {
     name: "TON TV",
@@ -395,7 +395,7 @@ kanalPlus: {
 },
 worldTurkTV: {
     name: "World Türk TV",
-    url: "https://yayin1.canlitv.fun/canlitv/worldturk.stream/chunklist_w1072226647.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
+    url: "https://yayin1.canlitv.fun/canlitv/worldturk.stream/chunklist_w1457400695.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
 },
 kanal3: {
     name: "Kanal 3",
@@ -411,11 +411,11 @@ kardelenTV: {
 },
 cankiriTV: {
     name: "Çankırı TV",
-    url: "https://yayin1.canlitv.fun/canlitv/cankiritv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
+    url: "https://yayin1.canlitv.fun/canlitv/cankiritv.stream/playlist.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
 },
 duzceTV: {
     name: "Düzce TV",
-    url: "https://yayin1.canlitv.fun/canlitv/duzcetv.stream/chunklist_w1172927972.m3u8?hash=2f8d8d45e0e6cded0002bb92dca0"
+    url: "https://yayin1.canlitv.fun/canlitv/duzcetv.stream/playlist.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
 },
 kanal34: {
     name: "Kanal 34",
@@ -495,7 +495,7 @@ frtTV: {
 },
 sonSozTV: {
     name: "Sonsöz TV",
-    url: "https://yayin1.canlitv.fun/canlitv/gokkusagi.stream/chunklist_w1927406296.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
+    url: "https://yayin1.canlitv.fun/canlitv/gokkusagi.stream/chunklist_w1700414062.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
 },
 kayTV: {
     name: "KAY TV",
@@ -745,11 +745,11 @@ iframeSettings: {
 },
 eurostar: {
     name: "Euro Star TV",
-    url: "https://dogusdyg-eurostar.lg.mncdn.com/dogusdyg_eurostar/live_1080p3000000kbps/index.m3u8?st=8sLM6V-MDLFIZGO5J21W6g&e=1793106644"
+    url: "https://dogusdyg-eurostar.lg.mncdn.com/dogusdyg_eurostar/live_1080p3000000kbps/index.m3u8?st=XSpdIy1vVM1NUQyEDXX8FA&e=1794097342"
 },
 atvavrupa: {
     name: "Atv Avrupa",
-    url: "https://trkvz-live.ercdn.net/atvavrupa/atvavrupa_576p.m3u8?st=3LZjZ01topO356t0qJcz9Q&e=1793065738"
+    url: "https://trkvz-live.ercdn.net/atvavrupa/atvavrupa_576p.m3u8?st=5E0KIy_rjzTmosGnIDw76Q&e=1794056229"
 },
 bloomberght: {
     name: "Bloomberg HT",
