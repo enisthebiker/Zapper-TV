@@ -12,19 +12,16 @@ tv8: {
         mode: "fit"
     }
 },
-atv: { name: "A TV", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8" },
+atv: { name: "A TV", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8" },
 
 kanald: {
     name: "Kanal D",
     url: "https://www.kanald.com.tr/canli-yayin",
     type: "iframe",
     iframeSettings: {
-        width: "1180px",
-        height: "1300px",
-        offsetX: "-200px",
-        offsetY: "-415px",
-        scale: 0.95
+        mode: "fit"
     }
+ 
 },
 startv: {
     name: "Star TV",
