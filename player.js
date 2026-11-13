@@ -289,18 +289,31 @@ channelIframe.src = channel.url;
 
 
     
+
 const settings = channel.iframeSettings || {};
 
 channelIframe.style.position = 'absolute';
-channelIframe.style.width = settings.width || '100%';
-channelIframe.style.height = settings.height || '100%';
-channelIframe.style.left = settings.offsetX || '0';
-channelIframe.style.top = settings.offsetY || '0';
-channelIframe.style.transform = settings.scale != null
-    ? `scale(${settings.scale})`
-    : '';
+channelIframe.style.border = '0';
+
+if (settings.mode === 'fit') {
+    channelIframe.style.width = '100%';
+    channelIframe.style.height = '100%';
+    channelIframe.style.left = '0';
+    channelIframe.style.top = '0';
+    channelIframe.style.transform = 'none';
+} else {
+    channelIframe.style.width = settings.width || '100%';
+    channelIframe.style.height = settings.height || '100%';
+    channelIframe.style.left = settings.offsetX || '0';
+    channelIframe.style.top = settings.offsetY || '0';
+    channelIframe.style.transform = settings.scale != null
+        ? `scale(${settings.scale})`
+        : '';
+}
+
 channelIframe.style.transformOrigin = 'top left';
 return;
+
 }
 
 
