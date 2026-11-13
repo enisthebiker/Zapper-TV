@@ -276,7 +276,7 @@ if (channel.type === 'iframe') {
 
     channelInfo.textContent =
     `${getChannelNumber(channelId)}. ${channel.name}`;
-    document.title = channel.name + ' - Zapper';
+    document.title = channel.name + ' - ZapperTV';
 
     if (siteUrl) {
         siteUrl.textContent = channel.url;
@@ -325,7 +325,7 @@ return;
         `${getChannelNumber(channelId)}. ${channel.name}`;
     channelInfo.style.display = 'block';
 
-    document.title = `${channel.name} - Zapper`;
+    document.title = `${channel.name} - ZapperTV`;
 
     siteUrl.textContent =
         channel.url || 'Bu kanal için doğrudan yayın adresi yok';
