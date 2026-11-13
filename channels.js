@@ -106,8 +106,8 @@ startv: {
         offsetX: "-170px",
         offsetY: "-610px",
         scale: 1.15  
-    },
-    Cartoonito: {
+     } },
+    cartoonito: {
     name: "Cartoonito",
     url: "https://famelack.com/tv/tr/QtXFuWUD4uuvh6",
     type: "iframe",
@@ -1206,8 +1206,7 @@ bodrumkenttv: {
 },
 onaltitv: {
     name: "On6 TV",
-    type: "youtube",
-    url: "https://www.canlitv.diy/on6-tv" ,
+       url: "https://www.canlitv.diy/on6-tv" ,
     type: "iframe",
     iframeSettings: {
      width: "1250px",
@@ -1225,11 +1224,11 @@ const defaultChannelOrder = [
     "trt1", "youtube", "showtv", "startv", "atv", "kanald", "tv8", "nowtv", 
     "dmax", "tlc", "trtbelgesel", "a2tv", 
     "trtmuzik", "trt2",
-    "showmax", "gzttv", "cine1", "PowerTV", "numberone", "ntv",
+    "showmax", "gzttv", "cine1", "powertv", "numberone", "ntv",
     "haberturk", "360tv", "tv100", "beyaztv",
     "halktv", "haberglobal", "tgrthaber", "ahaber","cnnTurk",
-    "yabantv", "koytv", "ciftcitv", "topraktv",
-    "ctgndocumentary", "patitv", "cartoonnetwork", "arbtv",
+    "yabantv", "ciftcitv", 
+    "ctgndocumentary", "patitv", "cartoonnetwork", 
     "cartoonito", "minikacocuk", "minikago", "trtdiyanetcocuk", 
     "aspor", "trtsporstar", "fbtv", "tjktv", "taytv", "kanal7"
 
