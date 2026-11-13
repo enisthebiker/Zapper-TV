@@ -1215,8 +1215,250 @@ onaltitv: {
         offsetY: "-610px",
         scale: 1.15  
     } },
-
-
+yesilcamtv: {
+    name: "Yeşilçam TV",
+       url: "https://www.canlitv.diy/yesilcam-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ tv2: {
+    name: "TV 2",
+    url: "https://www.tv2.com.tr/canli-yayin",
+type: "iframe",
+    iframeSettings: {
+     width: "900px",
+        height: "1100px",
+        offsetX: "-90px",
+        offsetY: "-150px",
+        scale: 1  
+    }
+},
+ cine5: {
+    name: "Cine 5",
+       url: "https://www.canlitv.diy/cine-5" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ eurod: {
+    name: "Euro D",
+    url: "https://www.eurod.tv/canli-yayin",
+type: "iframe",
+    iframeSettings: {
+     width: "900px",
+        height: "1000px",
+        offsetX: "-20px",
+        offsetY: "-90px",
+        scale: 0.85  
+    }
+},
+tgrt: {
+    name: "TGRT",
+       url: "https://www.canlitv.diy/tgrt-eu" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+bizimev: {
+    name: "Bizimev TV",
+       url: "https://www.canlitv.diy/bizimev-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ egelive: {
+    name: "Ege Live TV",
+       url: "https://www.canlitv.diy/ege-live-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+kanalsim: {
+    name: "Kanal Sim",
+       url: "https://www.canlitv.diy/sim-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+tv2020m: {
+    name: "TV 2020",
+       url: "https://www.canlitv.diy/tv-2020" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ aljazeera: {
+    name: "Al Jazeera English",
+       url: "https://www.canlitv.diy/aljazeera" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+  skynews: {
+    name: "Sky News",
+       url: "https://www.canlitv.diy/sky-news" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ abc: {
+    name: "ABC News",
+       url: "https://www.canlitv.diy/abc-news" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ tivibuspor: {
+    name: "Tivibu Spor",
+       url: "https://www.canlitv.diy/tivibu-spor" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ koytv: {
+    name: "Köy TV",
+       url: "https://www.canlitv.diy/koy-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ tivi6: {
+    name: "Tivi 6",
+       url: "https://www.canlitv.diy/tivi6" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ kralpop: {
+    name: "Kral Pop",
+       url: "https://www.canlitv.diy/kral-pop-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+  dreamturk: {
+    name: "Dream Türk",
+       url: "https://www.canlitv.diy/dream-turk" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ tokatsuper: {
+    name: "Tokat Süper TV",
+       url: "https://www.canlitv.diy/tokat-super-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ amasyaart: {
+    name: "Amasya Art TV",
+       url: "https://www.canlitv.diy/art-tv-amasya" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ haber61: {
+    name: "Haber 61",
+       url: "https://www.canlitv.diy/haber-61" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+  kanal5: {
+    name: "Kanal 5",
+       url: "https://www.canlitv.diy/kanal-5" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
+ ert: {
+    name: "ERT",
+       url: "https://www.canlitv.diy/ert-tokat" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 };
 
 // İlk açılışta kullanılacak kanal sırası
