@@ -1530,6 +1530,115 @@ tv2020m: {
         scale: 1.15
     }  
 },
+ fightbox: {
+    name: "Fight Box",
+    url: "https://famelack.com/tv/sports/WFwHBC1wCRvRfv",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ eurosport1: {
+    name: "Eurosport 1 russia",
+    url: "https://famelack.com/tv/sports/4vOFCDijqZFXmc",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ eurosport2: {
+    name: "Eurosport 2 russia",
+    url: "https://famelack.com/tv/sports/zHRzx1BQHIMJEZ",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ endurolife: {
+    name: "Enduro Life",
+    url: "https://famelack.com/tv/sports/NOygrZkydmJ7CX",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ fastfun: {
+    name: "Fast and Fun Box",
+    url: "https://famelack.com/tv/sports/QC400UPdsbVwAc",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ 
+ fightnetwork: {
+    name: "Fight Network",
+    url: "https://famelack.com/tv/sports/LRBUacm9msNRQ8",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ floracing: {
+    name: "Flo Racing",
+    url: "https://famelack.com/tv/sports/eioa4nZUmgJpwq",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ flohockey: {
+    name: "Flo Hockey",
+    url: "https://famelack.com/tv/sports/ZfVUL5SXEAyIkB",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ rallytv: {
+    name: "Rally TV",
+    url: "https://famelack.com/tv/sports/jhjHiCahsHYjT7",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+}
  
 };
 
