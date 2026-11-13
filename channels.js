@@ -93,12 +93,32 @@ startv: {
     tjktv: { name: "TJK TV", url: "https://tjktv-live.tjk.org/tjktv.m3u8" },
     taytv: { name: "TAY TV", url: "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8" },
     yabantv: { name: "Yaban TV", url: "https://yayin1.canlitv.fun/canlitv/yabantv.stream/playlist.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8" },
-    koytv: { name: "Köy TV", url: "https://yayin1.canlitv.fun/canlitv/koytv.stream/chunklist_w726484468.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8" },
+    
     ciftcitv: { name: "Çiftçi TV", url: "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8?hash=f056f39983f05906912d00f355565b97" },
-    topraktv: { name: "Toprak TV", url: "https://yayin1.canlitv.fun/canlitv/topraktv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6" },
+    
     ctgndocumentary: { name: "ctgn Documentary", url: "https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8" },
     patitv: { name: "Pati TV", url: "https://patitv.radyotelekomtv.com:3958/live/patitvlive.m3u8" },
-    cartoonnetwork: { name: "Cartoon Network", url: "https://yayin2.canlitv.fun/live/cartoon-network.stream/chunklist_w860674612.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8" },
+    cartoonnetwork: { name: "Cartoon Network", url: "https://famelack.com/tv/tr/ujhH0nIPBP5W03" ,
+ type: "iframe",
+    iframeSettings: {
+         width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    },
+    Cartoonito: {
+    name: "Cartoonito",
+    url: "https://famelack.com/tv/tr/QtXFuWUD4uuvh6",
+    type: "iframe",
+    iframeSettings: {
+         width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    }
+},
     arbtv: { name: "ARB Güneş TV", url: "https://yayin2.canlitv.fun/live/arbgunes.stream/chunklist_w479118348.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8" },
     minikacocuk: { name: "Minika Çocuk", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8" },
     minikago: { name: "Minika Go", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8" },
@@ -116,7 +136,7 @@ ntv: {
         width: "1200px",
         height: "1300px",
         offsetX: "-95px",
-        offsetY: "-415px",
+        offsetY: "-440px",
         scale: 0.74
     }
 },
@@ -711,7 +731,11 @@ kanal7: {
     url: "https://famelack.com/tv/tr/kebb0lZMNQ1Fy0",
     type: "iframe",
     iframeSettings: {
-        mode: "fit"
+        width: "1250px",
+    height: "1350px",
+    offsetX: "-170px",
+    offsetY: "-610px",
+    scale: 1.15
     }
 },
    sozcutv: {
@@ -929,7 +953,7 @@ const defaultChannelOrder = [
     "halktv", "haberglobal", "tgrthaber", "ahaber","cnnTurk",
     "yabantv", "koytv", "ciftcitv", "topraktv",
     "ctgndocumentary", "patitv", "cartoonnetwork", "arbtv",
-    "minikacocuk", "minikago", "trtdiyanetcocuk", 
+    "cartoonito", "minikacocuk", "minikago", "trtdiyanetcocuk", 
     "aspor", "trtsporstar", "fbtv", "tjktv", "taytv", "kanal7"
 
 ];
