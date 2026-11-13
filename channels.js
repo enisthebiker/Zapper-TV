@@ -19,7 +19,11 @@ kanald: {
     url: "https://www.kanald.com.tr/canli-yayin",
     type: "iframe",
     iframeSettings: {
-        mode: "fit"
+        width: "1180px",
+        height: "1300px",
+        offsetX: "-200px",
+        offsetY: "-415px",
+        scale: 0.95
     }
  
 },
