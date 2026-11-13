@@ -325,7 +325,7 @@ return;
         `${getChannelNumber(channelId)}. ${channel.name}`;
     channelInfo.style.display = 'block';
 
-    document.title = `${channel.name} - Türk TV`;
+    document.title = `${channel.name} - Zapper`;
 
     siteUrl.textContent =
         channel.url || 'Bu kanal için doğrudan yayın adresi yok';
