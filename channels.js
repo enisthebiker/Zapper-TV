@@ -9,13 +9,8 @@ tv8: {
     url: "https://www.tv8.com.tr/canli-yayin",
     type: "iframe",
     iframeSettings: {
-        width: "1200px",
-        height: "900px",
-        offsetX: "-90px",
-        offsetY: "-100px",
-        scale: 0.75
+        mode: "fit"
     }
-
 },
 atv: { name: "A TV", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8" },
 
