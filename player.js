@@ -274,7 +274,8 @@ if (channel.type === 'iframe') {
     ytEmbed.style.display = 'none';
     channelInfo.style.display = 'block';
 
-    channelInfo.textContent = channel.name;
+    channelInfo.textContent =
+    `${getChannelNumber(channelId)}. ${channel.name}`;
     document.title = channel.name + ' - Zapper';
 
     if (siteUrl) {
