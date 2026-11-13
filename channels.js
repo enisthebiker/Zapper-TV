@@ -326,10 +326,7 @@ kanal58: {
     name: "Kanal 58",
     url: "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/chunks.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
 },
-birtv: {
-    name: "Bir TV",
-    url: "https://edge2.taksimbilisim.com/birtv/bant1/chunks.m3u8"
-},
+
 tv1: {
     name: "TV 1",
     url: "https://edge1.taksimbilisim.com/tv1/bant1/chunks.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
@@ -391,11 +388,11 @@ kanal38: {
     url: "https://www.canlitv.diy/kanal38" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     }
 },
 cayTV: {
@@ -403,11 +400,11 @@ cayTV: {
     url: "https://www.canlitv.diy/cay-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     }
 },
 asTV: {
@@ -423,11 +420,11 @@ tvKayseri: {
     url: "https://www.canlitv.diy/tv-kayseri" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     }
 },
 tv42: {
@@ -459,11 +456,11 @@ worldTurkTV: {
     url: "https://www.canlitv.diy/world-turk-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     }
 },
 kanal3: {
@@ -483,11 +480,11 @@ cankiriTV: {
     url: "https://www.canlitv.diy/cankiri-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+    width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     }
 },
 duzceTV: {
@@ -495,11 +492,11 @@ duzceTV: {
     url: "https://www.canlitv.diy/duzce-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+    width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     }
 },
 kanal34: {
@@ -523,11 +520,11 @@ izmirTurkTV: {
     url: "https://www.canlitv.diy/izmir-turk-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     }
 },
 tv52: {
@@ -555,11 +552,11 @@ marmaraTV: {
     url: "https://www.canlitv.diy/marmara-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     }
 },
 aksuTV: {
@@ -599,11 +596,11 @@ sonSozTV: {
     url: "https://www.canlitv.diy/salihli-sonsoz-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     }
 },
 kayTV: {
@@ -614,12 +611,11 @@ tv38: {
     name: "TV 38",
     url: "https://www.canlitv.diy/tv-38" ,
  type: "iframe",
-    iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+    width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 altasTV: {
     name: "Altaş TV",
@@ -650,11 +646,11 @@ ahiTV: {
     url: "https://www.canlitv.diy/ahi-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+    width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 urfanatikTV: {
     name: "Urfanatik TV",
@@ -673,11 +669,11 @@ van65TV: {
     url: "https://www.canlitv.diy/van-65-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 edessaTV: {
     name: "Edessa TV",
@@ -703,12 +699,11 @@ torbaTV: {
     name: "Torba TV",
     url: "https://www.canlitv.diy/torba-tv" ,
   type: "iframe",
-    iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+    width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 kanalT: {
     name: "Kanal T",
@@ -723,66 +718,66 @@ kibrisAdaTV: {
     url: "https://www.canlitv.diy/kibris-ada-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 kibrisGencTV: {
     name: "Kıbrıs Genç TV",
     url: "https://www.canlitv.diy/kibris-genc-tv" ,
   type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+    width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 okkuTV: {
     name: "Okku TV",
     url: "https://www.canlitv.diy/okku-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 xeserTV: {
     name: "Xeser TV",
     url: "https://www.canlitv.diy/xezer-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 spaceTV: {
     name: "Space TV",
     url: "https://www.canlitv.diy/space-tv" ,
   type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 arbTV: {
     name: "ARB TV",
     url: "https://www.canlitv.diy/arb-tv" ,
   type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 atvAzadTV: {
     name: "ATV Azad TV",
@@ -793,66 +788,66 @@ azTV: {
     url: "https://www.canlitv.diy/az-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 arb24TV: {
     name: "ARB24 TV",
     url: "https://www.canlitv.diy/arb-24-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 medeniyetTV: {
     name: "Medeniyet TV",
     url: "https://www.canlitv.diy/medeniyet-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 kanalSAz: {
     name: "Kanal S AZ",
     url: "https://www.canlitv.diy/kanal-s-azerbaycan" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 dunyaTV: {
     name: "Dünya TV",
     url: "https://www.canlitv.diy/dunyatv-az" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 cbcTV: {
     name: "CBC TV",
     url: "https://www.canlitv.diy/cbc-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 bakuTV: {
     name: "Bakü TV",
@@ -867,11 +862,11 @@ turkmeneliTV: {
     url: "https://www.canlitv.diy/turkmeneli-tv" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+    width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 liveTV: {
     name: "Live TV",
@@ -890,11 +885,11 @@ rtRussia: {
     url: "https://www.canlitv.diy/russia-today" ,
  type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 deutscheWelleEnglish: {
     name: "DW English",
@@ -1020,11 +1015,11 @@ akittv: {
  url: "https://www.canlitv.diy/akit-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 ulketv: {
     name: "Ülke TV",
@@ -1032,10 +1027,11 @@ ulketv: {
     type: "iframe",
     iframeSettings: {
      width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+        width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 krttv: {
     name: "KRT TV",
@@ -1052,22 +1048,22 @@ ilketv: {
     url: "https://www.canlitv.diy/ilke-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     wwidth: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 benguturktv: {
     name: "Bengü Türk TV",
     url: "https://www.canlitv.diy/bengu-turk" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 liderhaber: {
     name: "Lider Haber",
@@ -1079,11 +1075,11 @@ ekoturktv: {
     url: "https://www.canlitv.diy/ekoturk-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 apara: {
     name: "A para TV",
@@ -1109,11 +1105,11 @@ egemaxtv: {
     url: "https://www.canlitv.diy/egemax-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 htspor: {
     name: "HT Spor",
@@ -1159,11 +1155,11 @@ booba: {
     url: "https://www.canlitv.diy/booba" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 maxtv: {
     name: "Max Music TV",
@@ -1186,11 +1182,11 @@ powerakustik: {
     url: "https://www.canlitv.diy/power-turk-akustik-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 powerdance: {
     name: "Power Dance",
@@ -1209,22 +1205,22 @@ onaltitv: {
        url: "https://www.canlitv.diy/on6-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     wwidth: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 yesilcamtv: {
     name: "Yeşilçam TV",
        url: "https://www.canlitv.diy/yesilcam-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  tv2: {
     name: "TV 2",
@@ -1243,11 +1239,11 @@ type: "iframe",
        url: "https://www.canlitv.diy/cine-5" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  eurod: {
     name: "Euro D",
@@ -1266,198 +1262,198 @@ tgrt: {
        url: "https://www.canlitv.diy/tgrt-eu" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 bizimev: {
     name: "Bizimev TV",
        url: "https://www.canlitv.diy/bizimev-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20 
     } },
  egelive: {
     name: "Ege Live TV",
        url: "https://www.canlitv.diy/ege-live-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 kanalsim: {
     name: "Kanal Sim",
        url: "https://www.canlitv.diy/sim-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 tv2020m: {
     name: "TV 2020",
        url: "https://www.canlitv.diy/tv-2020" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  aljazeera: {
     name: "Al Jazeera English",
        url: "https://www.canlitv.diy/aljazeera" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
   skynews: {
     name: "Sky News",
        url: "https://www.canlitv.diy/sky-news" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  abc: {
     name: "ABC News",
        url: "https://www.canlitv.diy/abc-news" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  tivibuspor: {
     name: "Tivibu Spor",
        url: "https://www.canlitv.diy/tivibu-spor" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+    width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  koytv: {
     name: "Köy TV",
        url: "https://www.canlitv.diy/koy-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  tivi6: {
     name: "Tivi 6",
        url: "https://www.canlitv.diy/tivi6" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  kralpop: {
     name: "Kral Pop",
        url: "https://www.canlitv.diy/kral-pop-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
   dreamturk: {
     name: "Dream Türk",
        url: "https://www.canlitv.diy/dream-turk" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  tokatsuper: {
     name: "Tokat Süper TV",
        url: "https://www.canlitv.diy/tokat-super-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  amasyaart: {
     name: "Amasya Art TV",
        url: "https://www.canlitv.diy/art-tv-amasya" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  haber61: {
     name: "Haber 61",
        url: "https://www.canlitv.diy/haber-61" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
   kanal5: {
     name: "Kanal 5",
        url: "https://www.canlitv.diy/kanal-5" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
  ert: {
     name: "ERT",
        url: "https://www.canlitv.diy/ert-tokat" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15  
+     width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
     } },
 };
 
