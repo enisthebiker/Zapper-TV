@@ -1446,20 +1446,104 @@ tv2020m: {
         offsetY: "-190px",
         scale: 1.20
     } },
+ arastv: {
+    name: "Aras TV",
+    url: "https://famelack.com/tv/tr/Zzw5XdFQULzoOQ",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }
+},
+ etvkayseri: {
+    name: "E TV Kayseri",
+    url: "https://famelack.com/tv/tr/XeroOQjH9IhpiE",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }
+},
+  senersen: {
+    name: "Şener Şen TV",
+    url: "https://famelack.com/tv/tr/tabafcg5kRDnTr",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }
+},
+ kemalsunal: {
+    name: "Kemal Sunal TV",
+    url: "https://famelack.com/tv/tr/rk4CX2TtGGZ6cO",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ flashtv: {
+    name: "Flash TV",
+    url: "https://famelack.com/tv/tr/M7iic35BRSxsTh",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ guldur: {
+    name: "Güldür Güldür TV",
+    url: "https://famelack.com/tv/tr/I6D9IHQIDu6y7l",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ guldur: {
+    name: "Güldür Güldür TV",
+    url: "https://famelack.com/tv/tr/I6D9IHQIDu6y7l",
+    type: "iframe",
+    iframeSettings: {
+        width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15
+    }  
+},
+ 
 };
 
 // İlk açılışta kullanılacak kanal sırası
 const defaultChannelOrder = [
     "trt1", "youtube", "showtv", "startv", "atv", "kanald", "tv8", "nowtv", 
-    "dmax", "tlc", "trtbelgesel", "a2tv", 
-    "trtmuzik", "trt2",
-    "showmax", "gzttv", "cine1", "powertv", "numberone", "ntv",
-    "haberturk", "360tv", "tv100", "beyaztv",
-    "halktv", "haberglobal", "tgrthaber", "ahaber","cnnTurk",
-    "yabantv", "ciftcitv", 
+    "dmax", "tlc", "trtbelgesel", "a2tv", "trt2", "showmax", "beyaztv", "gzttv", "cine1", "cine5", "tv85",
+    "haberturk", "360tv", "tv100", 
+    "halktv", "sozcutv", "haberglobal", "tgrthaber", "ahaber","cnnTurk",
+    "yabantv", "ciftcitv", "koytv", "tarimtv" 
     "ctgndocumentary", "patitv", "cartoonnetwork", 
     "cartoonito", "minikacocuk", "minikago", "trtdiyanetcocuk", 
-    "aspor", "trtsporstar", "fbtv", "tjktv", "taytv", "kanal7"
+    "aspor", "trtsporstar", "fbtv", "tivibuspor", "tjktv", "taytv", "kanal7",
+    "trtmuzik", "powertv", "numberone", "ntv", "dreamturk", "kralpop"
 
 ];
 
