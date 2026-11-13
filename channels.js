@@ -374,13 +374,41 @@ anadoluDostTV: {
         scale: 1.20
     }
 },
+                     anadolunettv: {
+    name: "Anadolu Net TV",
+    url: "https://famelack.com/tv/tr/yL3s4jwp0ivExp",
+type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    }
+},
 kanal38: {
     name: "Kanal 38",
-    url: "https://yayin1.canlitv.fun/canlitv/kanal38.stream/chunklist_w1556741452.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
+    url: "https://www.canlitv.diy/kanal38" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    }
 },
 cayTV: {
     name: "Çay TV",
-    url: "https://edge2.taksimbilisim.com/caytv/bant1/chunks.m3u8?nimblesessionid=575360064"
+    url: "https://www.canlitv.diy/cay-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    }
 },
 asTV: {
     name: "AS TV",
@@ -392,7 +420,15 @@ denizPostasi: {
 },
 tvKayseri: {
     name: "TV Kayseri",
-    url: "https://yayin1.canlitv.fun/canlitv/tvkayseri.stream/chunklist_w1074253096.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
+    url: "https://www.canlitv.diy/tv-kayseri" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    }
 },
 tv42: {
     name: "TV 42",
@@ -420,7 +456,15 @@ kanalPlus: {
 },
 worldTurkTV: {
     name: "World Türk TV",
-    url: "https://yayin1.canlitv.fun/canlitv/worldturk.stream/chunklist_w1457400695.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
+    url: "https://www.canlitv.diy/world-turk-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    }
 },
 kanal3: {
     name: "Kanal 3",
@@ -436,11 +480,27 @@ kardelenTV: {
 },
 cankiriTV: {
     name: "Çankırı TV",
-    url: "https://yayin1.canlitv.fun/canlitv/cankiritv.stream/playlist.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
+    url: "https://www.canlitv.diy/cankiri-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    }
 },
 duzceTV: {
     name: "Düzce TV",
-    url: "https://yayin1.canlitv.fun/canlitv/duzcetv.stream/playlist.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
+    url: "https://www.canlitv.diy/duzce-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    }
 },
 kanal34: {
     name: "Kanal 34",
@@ -460,7 +520,15 @@ mercanTV: {
 },
 izmirTurkTV: {
     name: "İzmir Türk TV",
-    url: "https://yayin1.canlitv.fun/canlitv/izmirturktv.stream/chunklist_w538091056.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
+    url: "https://www.canlitv.diy/izmir-turk-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    }
 },
 tv52: {
     name: "TV 52",
@@ -484,7 +552,15 @@ kanal32: {
 },
 marmaraTV: {
     name: "Marmara TV",
-    url: "https://yayin1.canlitv.fun/canlitv/marmaratv.stream/chunklist_w2047025268.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
+    url: "https://www.canlitv.diy/marmara-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    }
 },
 aksuTV: {
     name: "Aksu TV",
@@ -520,7 +596,15 @@ frtTV: {
 },
 sonSozTV: {
     name: "Sonsöz TV",
-    url: "https://yayin1.canlitv.fun/canlitv/gokkusagi.stream/chunklist_w1700414062.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
+    url: "https://www.canlitv.diy/salihli-sonsoz-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    }
 },
 kayTV: {
     name: "KAY TV",
@@ -528,8 +612,15 @@ kayTV: {
 },
 tv38: {
     name: "TV 38",
-    url: "https://yayin1.canlitv.fun/canlitv/tv38.stream/chunklist_w2091559379.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/tv-38" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 altasTV: {
     name: "Altaş TV",
     url: "https://edge1.taksimbilisim.com/altastv/bant1/chunks.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
@@ -556,8 +647,15 @@ kentTurkTV: {
 },
 ahiTV: {
     name: "Ahi TV",
-    url: "https://yayin1.canlitv.fun/canlitv/ahitv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/ahi-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 urfanatikTV: {
     name: "Urfanatik TV",
     url: "https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/chunks.m3u8"
@@ -572,8 +670,15 @@ ruhaTV: {
 },
 van65TV: {
     name: "Van 65 TV",
-    url: "https://live.artidijitalmedya.com/artidijital_van65/van65/chunks.m3u8?nimblesessionid=4363363877"
-},
+    url: "https://www.canlitv.diy/van-65-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 edessaTV: {
     name: "Edessa TV",
     url: "https://canli.edessatv.com/hls/0/stream.m3u8"
@@ -596,8 +701,15 @@ brt2: {
 },
 torbaTV: {
     name: "Torba TV",
-    url: "https://yayin1.canlitv.fun/canlitv/torbatv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/torba-tv" ,
+  type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 kanalT: {
     name: "Kanal T",
     url: "https://edge.kuzeykibrissmart.tv/kanalt/bant1/chunks.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
@@ -608,56 +720,140 @@ kibrisTV: {
 },
 kibrisAdaTV: {
     name: "Kıbrıs Ada TV",
-    url: "https://yayin1.canlitv.fun/canlitv/kibrisadatv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/kibris-ada-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 kibrisGencTV: {
     name: "Kıbrıs Genç TV",
-    url: "https://yayin1.canlitv.fun/canlitv/genctv.stream/chunklist_w671685822.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/kibris-genc-tv" ,
+  type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 okkuTV: {
     name: "Okku TV",
-    url: "https://yayin1.canlitv.fun/canlitv/okkutv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/okku-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 xeserTV: {
     name: "Xeser TV",
-    url: "https://yayin2.canlitv.fun/live/xezertv.stream/chunklist_w1354979620.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/xezer-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 spaceTV: {
     name: "Space TV",
-    url: "https://yayin2.canlitv.fun/live/spacetv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/space-tv" ,
+  type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 arbTV: {
     name: "ARB TV",
-    url: "https://yayin2.canlitv.fun/live/arb.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/arb-tv" ,
+  type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 atvAzadTV: {
     name: "ATV Azad TV",
     url: "https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
 },
 azTV: {
     name: "Az TV",
-    url: "https://yayin2.canlitv.fun/live/aztv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/az-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 arb24TV: {
     name: "ARB24 TV",
-    url: "https://yayin2.canlitv.fun/live/arb24.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/arb-24-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 medeniyetTV: {
     name: "Medeniyet TV",
-    url: "https://yayin2.canlitv.fun/live/medeniyettv.stream/chunklist_w1293214261.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/medeniyet-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 kanalSAz: {
     name: "Kanal S AZ",
-    url: "https://yayin2.canlitv.fun/live/kanals.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/kanal-s-azerbaycan" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 dunyaTV: {
     name: "Dünya TV",
-    url: "https://yayin2.canlitv.fun/live/dunyatv.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/dunyatv-az" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 cbcTV: {
     name: "CBC TV",
-    url: "https://yayin2.canlitv.fun/live/cbc.stream/playlist.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
-},
+    url: "https://www.canlitv.diy/cbc-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 bakuTV: {
     name: "Bakü TV",
     url: "https://rtmp.baku.tv/hls/bakutv.m3u8"
@@ -668,8 +864,15 @@ azStarTV: {
 },
 turkmeneliTV: {
     name: "Türkmeneli TV",
-    url: "https://stream-135962.castr.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/tracks-v1/index.fmp4.m3u8"
-},
+    url: "https://www.canlitv.diy/turkmeneli-tv" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 liveTV: {
     name: "Live TV",
     url: "https://tv.mobyservice.ru/livetv-web/tracks-v1a1/mono.m3u8"
@@ -684,8 +887,15 @@ imediTV: {
 },
 rtRussia: {
     name: "RT Russia",
-    url: "https://1a-1791.com/live/hr6yv36f/slot-4/mxtm-wdfe_1080p/chunklist_DVR.m3u8"
-},
+    url: "https://www.canlitv.diy/russia-today" ,
+ type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 deutscheWelleEnglish: {
     name: "DW English",
     url: "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream01/streamPlaylist.m3u8"
@@ -778,11 +988,27 @@ iframeSettings: {
 },
 eurostar: {
     name: "Euro Star TV",
-    url: "https://dogusdyg-eurostar.lg.mncdn.com/dogusdyg_eurostar/live_1080p3000000kbps/index.m3u8?st=XSpdIy1vVM1NUQyEDXX8FA&e=1794097342"
+    url: "https://www.eurostartv.com.tr/canli-izle",
+type: "iframe",
+    iframeSettings: {
+     width: "900px",
+        height: "1100px",
+        offsetX: "-80px",
+        offsetY: "-150px",
+        scale: 0.90  
+    }
 },
 atvavrupa: {
     name: "Atv Avrupa",
-    url: "https://trkvz-live.ercdn.net/atvavrupa/atvavrupa_576p.m3u8?st=5E0KIy_rjzTmosGnIDw76Q&e=1794056229"
+   url: "https://www.atvavrupa.tv/canli-yayin",
+type: "iframe",
+    iframeSettings: {
+     width: "900px",
+        height: "1100px",
+        offsetX: "-90px",
+        offsetY: "-150px",
+        scale: 1  
+    }
 },
 bloomberght: {
     name: "Bloomberg HT",
@@ -791,14 +1017,26 @@ bloomberght: {
 },
 akittv: {
     name: "Akit TV",
-    type: "youtube",
-    url: "bqQ86zWjZ2M"
-},
+ url: "https://www.canlitv.diy/akit-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 ulketv: {
     name: "Ülke TV",
-    type: "youtube",
-    url: "RWHjsjauioY"
-},
+    url: "https://www.canlitv.diy/ulke-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 krttv: {
     name: "KRT TV",
     type: "youtube",
@@ -811,14 +1049,26 @@ ulusalkanal: {
 },
 ilketv: {
     name: "İlke TV",
-    type: "youtube",
-    url: "8dfvB1MYSBo"
-},
+    url: "https://www.canlitv.diy/ilke-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 benguturktv: {
     name: "Bengü Türk TV",
-    type: "youtube",
-    url: "oM8knhi5hzQ"
-},
+    url: "https://www.canlitv.diy/bengu-turk" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 liderhaber: {
     name: "Lider Haber",
     type: "youtube",
@@ -826,9 +1076,15 @@ liderhaber: {
 },
 ekoturktv: {
     name: "Ekotürk TV",
-    type: "youtube",
-    url: "n5kkt5THivg"
-},
+    url: "https://www.canlitv.diy/ekoturk-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 apara: {
     name: "A para TV",
     type: "youtube",
@@ -850,9 +1106,15 @@ anews: {
 },
 egemaxtv: {
     name: "Egemax TV",
-    type: "youtube",
-    url: "_NcO_Qm4qhg"
-},
+    url: "https://www.canlitv.diy/egemax-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 htspor: {
     name: "HT Spor",
     type: "youtube",
@@ -892,21 +1154,17 @@ bluey: {
     type: "youtube",
     url: "RHUauMcYlX0"
 },
-yardimciarabalar: {
-    name: "Yardımcı Arabalar",
-    type: "youtube",
-    url: "bGyK5QAqF8c"
-},
 booba: {
     name: "Booba TV",
-    type: "youtube",
-    url: "S3PgnmpBL_E"
-},
-konusantom: {
-    name: "Tom ve Arkadaşları",
-    type: "youtube",
-    url: "p2lzszpliL4"
-},
+    url: "https://www.canlitv.diy/booba" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 maxtv: {
     name: "Max Music TV",
     url: "https://cdn4.yayin.com.tr/maxtv/tracks-v1a1/mono.m3u8"
@@ -925,8 +1183,15 @@ numberonedans: {
 },
 powerakustik: {
     name: "Power Türk Akustik",
-    url: "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/chunks.m3u8?nimblesessionid=1113859402"
-},
+    url: "https://www.canlitv.diy/power-turk-akustik-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 powerdance: {
     name: "Power Dance",
     url: "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8"
@@ -942,8 +1207,15 @@ bodrumkenttv: {
 onaltitv: {
     name: "On6 TV",
     type: "youtube",
-    url: "iK9mJfjtCl0"
-},
+    url: "https://www.canlitv.diy/on6-tv" ,
+    type: "iframe",
+    iframeSettings: {
+     width: "1250px",
+        height: "1350px",
+        offsetX: "-170px",
+        offsetY: "-610px",
+        scale: 1.15  
+    } },
 
 
 };
