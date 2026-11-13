@@ -119,7 +119,7 @@ startv: {
         scale: 1.15  
     }
 },
-    arbtv: { name: "ARB Güneş TV", url: "https://yayin2.canlitv.fun/live/arbgunes.stream/chunklist_w479118348.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8" },
+    
     minikacocuk: { name: "Minika Çocuk", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8" },
     minikago: { name: "Minika Go", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8" },
     trtdiyanetcocuk: { name: "TRT DiyanetÇocuk", url: "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8" },
@@ -309,10 +309,7 @@ etvmanisa: {
     name: "ETV Manisa",
     url: "https://edge1.taksimbilisim.com/manisaetv/bant1/chunks.m3u8?hash=2f8d8d45e0e6cded0002bb92dca073c6"
 },
-tokatsupertv: {
-    name: "Tokat Süper TV",
-    url: "https://yayin1.canlitv.fun/canlitv/tokatsupertv.stream/chunklist_w1733357374.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
-},
+
 kanalv: {
     name: "Kanal V",
     url: "https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/chunks.m3u8"
@@ -367,7 +364,15 @@ kanal33: {
 },
 anadoluDostTV: {
     name: "Anadolu Dost TV",
-    url: "https://yayin1.canlitv.fun/canlitv/dosttv.stream/chunklist_w143271696.m3u8?hash=1d51ad62eaa23bb5f4faa4668cb928f8"
+    url: "https://www.canlitv.diy/anadolu-dost-tv",
+ type: "iframe",
+    iframeSettings: {
+         width: "800px",
+        height: "1200px",
+        offsetX: "-4px",
+        offsetY: "-190px",
+        scale: 1.20
+    }
 },
 kanal38: {
     name: "Kanal 38",
