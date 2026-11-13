@@ -611,6 +611,7 @@ tv38: {
     name: "TV 38",
     url: "https://www.canlitv.diy/tv-38" ,
  type: "iframe",
+ iframeSettings: {
     width: "800px",
         height: "1200px",
         offsetX: "-4px",
@@ -699,6 +700,7 @@ torbaTV: {
     name: "Torba TV",
     url: "https://www.canlitv.diy/torba-tv" ,
   type: "iframe",
+ iframeSettings: {
     width: "800px",
         height: "1200px",
         offsetX: "-4px",
@@ -1026,8 +1028,7 @@ ulketv: {
     url: "https://www.canlitv.diy/ulke-tv" ,
     type: "iframe",
     iframeSettings: {
-     width: "1250px",
-        width: "800px",
+             width: "800px",
         height: "1200px",
         offsetX: "-4px",
         offsetY: "-190px",
@@ -1048,7 +1049,7 @@ ilketv: {
     url: "https://www.canlitv.diy/ilke-tv" ,
     type: "iframe",
     iframeSettings: {
-     wwidth: "800px",
+     width: "800px",
         height: "1200px",
         offsetX: "-4px",
         offsetY: "-190px",
@@ -1205,7 +1206,7 @@ onaltitv: {
        url: "https://www.canlitv.diy/on6-tv" ,
     type: "iframe",
     iframeSettings: {
-     wwidth: "800px",
+     width: "800px",
         height: "1200px",
         offsetX: "-4px",
         offsetY: "-190px",
@@ -1367,17 +1368,7 @@ tv2020m: {
         offsetY: "-190px",
         scale: 1.20
     } },
- tivi6: {
-    name: "Tivi 6",
-       url: "https://www.canlitv.diy/tivi6" ,
-    type: "iframe",
-    iframeSettings: {
-     width: "800px",
-        height: "1200px",
-        offsetX: "-4px",
-        offsetY: "-190px",
-        scale: 1.20
-    } },
+ 
  kralpop: {
     name: "Kral Pop",
        url: "https://www.canlitv.diy/kral-pop-tv" ,
