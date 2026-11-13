@@ -1518,18 +1518,6 @@ tv2020m: {
         scale: 1.15
     }  
 },
- guldur: {
-    name: "Güldür Güldür TV",
-    url: "https://famelack.com/tv/tr/I6D9IHQIDu6y7l",
-    type: "iframe",
-    iframeSettings: {
-        width: "1250px",
-        height: "1350px",
-        offsetX: "-170px",
-        offsetY: "-610px",
-        scale: 1.15
-    }  
-},
  fightbox: {
     name: "Fight Box",
     url: "https://famelack.com/tv/sports/WFwHBC1wCRvRfv",
@@ -1648,7 +1636,7 @@ const defaultChannelOrder = [
     "dmax", "tlc", "trtbelgesel", "a2tv", "trt2", "showmax", "beyaztv", "gzttv", "cine1", "cine5", "tv85",
     "haberturk", "360tv", "tv100", 
     "halktv", "sozcutv", "haberglobal", "tgrthaber", "ahaber","cnnTurk",
-    "yabantv", "ciftcitv", "koytv", "tarimtv" 
+    "yabantv", "ciftcitv", "koytv", "tarimtv", 
     "ctgndocumentary", "patitv", "cartoonnetwork", 
     "cartoonito", "minikacocuk", "minikago", "trtdiyanetcocuk", 
     "aspor", "trtsporstar", "fbtv", "tivibuspor", "tjktv", "taytv", "kanal7",
