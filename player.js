@@ -286,7 +286,9 @@ if (channel.type === 'iframe') {
 
 
 channelIframe.src = channel.url;
-
+setTimeout(() => {
+    channelInfo.style.display = 'none';
+}, 3000);
 
     
 
