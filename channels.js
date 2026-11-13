@@ -706,9 +706,13 @@ kanal7: {
     name: "Kanal 7",
     url: "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8?hash=c844a8b9e123a6534abc61aa68065b5d"
 },
-cnnTurk: {
+ cnnTurk: {
     name: "CNN Türk",
-    url: "https://yayin2.canlitv.fun/live/cnnturk.stream/playlist.m3u8?hash=c844a8b9e123a6534abc61aa68065b5d"
+    url: "https://famelack.com/tv/tr/kebb0lZMNQ1Fy0",
+    type: "iframe",
+    iframeSettings: {
+        mode: "fit"
+    }
 },
    sozcutv: {
     name: "Sözcü TV",
