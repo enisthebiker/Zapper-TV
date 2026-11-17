@@ -4,10 +4,8 @@
  // Kanal bilgileri: Yeni kanal eklemek için bu dosyayı düzenle.
 const channels = {
     trt1: { name: "TRT 1", url: "https://tv-trt1.medya.trt.com.tr/master.m3u8" },
-tv8: {
-    name: "TV8",
-    url: "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_480p.m3u8" },
-},
+tv8: {    name: "TV8",    url: "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_480p.m3u8" },
+
 atv: { name: "A TV", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8" },
 
 kanald: {
