@@ -6,15 +6,7 @@ const channels = {
     trt1: { name: "TRT 1", url: "https://tv-trt1.medya.trt.com.tr/master.m3u8" },
 tv8: {
     name: "TV8",
-    url: "https://www.tv8.com.tr/canli-yayin",
-    type: "iframe",
-    iframeSettings: {
-        width: "1200px",
-        height: "900px",
-        offsetX: "-90px",
-        offsetY: "-100px",
-        scale: 0.75
-    }
+    url: "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_480p.m3u8" },
 },
 atv: { name: "A TV", url: "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8" },
 
